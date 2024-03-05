@@ -15,20 +15,20 @@ Only the first two need to be ran. The others contain supporting code. The purpo
     i)  a file containing the true graphical structure and 
     ii) a file containing the estimated graphical structure 
         together with the AUC, Pr+ Pr-, and runtime at selected 
-        iterations during the running of the algorithm
+        iterations during the running of the algorithm.
     Running "run_and_save.R" for different values of p, 
     n, graph, density algorithm and replication number, creates all 
     necessary ".Rdata" files. 
 
-2. Main file: "read_output.R"
+3. Main file: "read_output.R"
     This file reads all the ".Rdata" files created by the file
     "run_and_save.R" and creates all the tables and plots of Section 4.
     
-3. Supporting file: "metric_functions"
+4. Supporting file: "metric_functions"
     This file contains all supporting functions to calculate    
     the AUC, Pr+, Pr-, TPR and FPR                             
 
-4. The eight supporting files: "..._functions"
+5. The eight supporting files: "..._functions"
     There is one file for each of the eight algorithms: 
     "1.Glasso_functions.R"
     "2.RJWWA_functions.R"
@@ -41,6 +41,6 @@ Only the first two need to be ran. The others contain supporting code. The purpo
     are provided at each iteration specified in the iter_vec_thin
 
 
-5. The file "ggm_new5.cpp" 
+6. The file "ggm_new5.cpp" 
     This file contains supporting code for the RJWWA algorithm 
 
