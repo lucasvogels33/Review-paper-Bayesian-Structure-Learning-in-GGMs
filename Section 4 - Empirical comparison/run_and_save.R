@@ -29,7 +29,9 @@ rep = 1             #replication number, should be an integer between 1 and 16.
 #select the algorithm 
 algorithm = "BDA"   #options are "Glasso", "RJWWA", "BDA", "SSO", "BAGUS" "GMPLBD" "Horseshoe" "BGGM"
 
-#install packages and libraries for RJ-WWA algorithm 
+#if you want to run the algorithm RJWWA:
+#1. First the C++ "blaze" needs to be downloaded (https://bitbucket.org/blaze-lib/blaze/src/master/) 
+#2. Then the below code needs to be ran
 if (algorithm=="RJWWA"){
     pkgs <- c("BH", "Rcpp", "withr")
     install.packages(
