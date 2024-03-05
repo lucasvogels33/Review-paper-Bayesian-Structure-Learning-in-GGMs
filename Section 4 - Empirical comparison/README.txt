@@ -6,7 +6,7 @@ This folder contains 5 types of files:
 2. The main file: "read_output.R"
 3. Supporting file: "metric_functions"
 4. The eight supporting files: "..._functions"
-5. The file "ggm_new5.cpp" and the folder "blaze"
+5. The file "ggm_new5.cpp" 
 
 Only the first two need to be ran. The others contain supporting code. The purpose of each file type is now explained.
 
@@ -41,6 +41,6 @@ Only the first two need to be ran. The others contain supporting code. The purpo
     are provided at each iteration specified in the iter_vec_thin
 
 
-5. The file "ggm_new5.cpp" and the folder "blaze"
-    This file and this folder contain code for the RJWWA algorithm 
+5. The file "ggm_new5.cpp" 
+    This file contains supporting code for the RJWWA algorithm 
 
